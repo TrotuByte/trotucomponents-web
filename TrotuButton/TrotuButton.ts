@@ -13,6 +13,7 @@ export class TrotuButton extends CustomWebComponent{
         style.textContent = `
             :host {
                 cursor: pointer;
+                color: var(--button-text-color);
             }
         `;
         shadow.appendChild(style);
